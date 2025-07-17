@@ -1,0 +1,18 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "globals": {
+    "__app_id": "readonly",
+    "__initial_auth_token": "readonly",
+    "__firebase_config": "readonly"
+  },
+  "extends": [
+    "react-app",
+    "react-app/jest"
+  ],
+  "rules": {
+    "no-undef": "error"
+  }
+}
